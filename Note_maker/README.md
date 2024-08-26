@@ -1,8 +1,6 @@
-# React + Vite
+The Notes Maker project is approached with a structured methodology, dividing responsibilities into stateful backend controllers and stateless frontend components.
+On the backend, Express.js connects to MongoDB Atlas, with server.js acting as the controller for CRUD operations.
+The frontend uses React.js, where App.js manages overall state and communication with the backend, while stateless components like AddNote.js and NoteList.js handle UI elements.
+A minimal directory structure ensures clarity, and CSS styling enhances the user interface.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Screenshot (154)](https://github.com/user-attachments/assets/2c64c9ac-fce7-4e00-9568-f07dc54eceb5)
